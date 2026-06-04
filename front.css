@@ -19,13 +19,17 @@ body{
     height:600px;
     display:flex;
     border-radius:20px;
-    overflow:hidden;
+    overflow:unset;
     box-shadow:0 10px 30px rgba(0,0,0,.2);
 }
 
 .left{
-    flex:1;
-    background:linear-gradient(135deg,#0057b8,#003c82);
+   flex:1;
+
+    background-image:url("imagem_melhorada_1200x2000.jpg");
+    background-size:cover;
+    background-position:center;
+
     color:white;
     display:flex;
     flex-direction:column;
@@ -34,7 +38,6 @@ body{
     padding:40px;
     text-align:center;
 }
-
 .left h1{
     font-size:3rem;
     margin-bottom:20px;
@@ -46,22 +49,8 @@ body{
     max-width:350px;
 }
 
-.logo{
-    width:80px;
-    height:80px;
-    border-radius:50%;
-    background:#f4c430;
-    color:#d62828;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    font-size:35px;
-    font-weight:bold;
-    margin-bottom:20px;
-}
-
 .right{
-    flex:1;
+    flex:2;
     background:#ffffff;
     display:flex;
     justify-content:center;
