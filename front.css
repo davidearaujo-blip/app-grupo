@@ -6,11 +6,10 @@
 }
 
 body{
-    min-height:100vh;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    background:linear-gradient(135deg,#0057b8,#ffffff);
+        background-image:url("imagem_melhorada_1200x2000.jpg");
+    background-size:cover;
+    background-position:center;
+
 }
 
 .container{
@@ -26,10 +25,7 @@ body{
 .left{
    flex:1;
 
-    background-image:url("imagem_melhorada_1200x2000.jpg");
-    background-size:cover;
-    background-position:center;
-
+   
     color:white;
     display:flex;
     flex-direction:column;
