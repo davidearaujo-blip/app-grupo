@@ -9,6 +9,7 @@ body{
         background-image:url("imagem_melhorada_1200x2000.jpg");
     background-size:cover;
     background-position:center;
+    min-height:100vh;
 
 }
 
@@ -16,47 +17,39 @@ body{
     width:100%;
     max-width:1000px;
     height:600px;
+    margin: auto;
     display:flex;
     border-radius:20px;
     overflow:unset;
     box-shadow:0 10px 30px rgba(0,0,0,.2);
 }
+.grass{
+    background: rgb(255, 255, 255, o.12);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    box-shadow: 
+    0 8px 32px rgba(0,0,0,0.2),
+    insert 0 1px 1px rgba(255, 255, 255, 0.3);
+    border-radius: 20px;
 
-.left{
-   flex:1;
-
-   
-    color:white;
-    display:flex;
-    flex-direction:column;
-    justify-content:center;
-    align-items:center;
-    padding:40px;
-    text-align:center;
-}
-.left h1{
-    font-size:3rem;
-    margin-bottom:20px;
 }
 
-.left p{
-    font-size:1.1rem;
-    line-height:1.6;
-    max-width:350px;
-}
 
 .right{
     flex:2;
-    background:#ffffff;
+    background:transparent;
     display:flex;
     justify-content:center;
     align-items:center;
     padding:40px;
 }
 
-.login-box{
+.grass-login-box{
     width:100%;
     max-width:380px;
+    border-radius: 20px;
+    padding: 20px;
 }
 
 .login-box h2{
@@ -65,7 +58,7 @@ body{
     margin-bottom:10px;
 }
 
-.login-box p{
+.grass-login-box p{
     text-align:center;
     color:#666;
     margin-bottom:30px;
